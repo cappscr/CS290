@@ -1,0 +1,10 @@
+Hello! 
+
+My name is Christopher Capps.
+
+I am taking OSU's CS 290 Web Development Class in the summer term 2016.
+
+I currently work as a research technician for Appalachian State University in North Carolina.
+
+However, I am an aspiring to work in the field of Data Scientist or Bioinformatics using computer related applications.
+
