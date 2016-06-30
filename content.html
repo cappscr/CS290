@@ -1,0 +1,164 @@
+<!-- *************************************************************************
+** Name: content.html
+** Author: Christopher Capps
+** Date: June 26th, 2016
+** Class: CS 290 Summer 2016
+** Description: Implementation of html code for assignment in week 1. Creation
+** of basic web content and styling.
+************************************************************************* -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Week 1 Assignment</title>
+      <link rel="stylesheet" href="styles.css" type="text/css">
+   </head>
+   
+   <body>
+      <!-- Create a 6x6 Table -->
+      <table>
+      <caption>This table shows which programming languages are used in particular OSU Ecampus classes</caption>
+      	<thead>
+      		<th></th>
+      		<th>CS 161</th>
+      		<th>CS 162</th>
+      		<th>CS 261</th>
+      		<th>CS 271</th>
+      		<th>CS 290</th>
+      	</thead>
+      	<tbody>
+      		<tr>
+      			<th class="row-header">C++</th>
+      			<td>Yes</td>
+      			<td>Yes</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      		</tr>
+      		<tr>
+      			<th class="row-header">C</th>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>Yes</td>
+      			<td>No</td>
+      			<td>No</td>
+      		</tr>
+      		<tr>
+      			<th class="row-header">MASM</th>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>Yes</td>
+      			<td>No</td>
+      		</tr>
+      		<tr>
+      			<th class="row-header">HTML/CSS</th>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>Yes</td>
+      		</tr>
+      		<tr>
+      			<th class="row-header">Javascript</th>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>No</td>
+      			<td>Yes</td>
+      		</tr>
+      		<tr>
+      			<td colspan="2">Intro to Programming</td>
+      			<td colspan="4">Data Structures, Assembly Language, and Web Development</td>
+      		</tr>
+      	</tbody>
+      </table>
+      
+      <!-- a ul, ol, or dl with at least 3 items -->
+      <ul>
+      	<h4>A few of my favorite TV shows</h4>
+      	<li>Game of Thrones</li>
+      	<li>House of Cards</li>
+      	<li>Breaking Bad</li>
+      </ul>
+      
+      <!-- a div element with particular styling -->
+      <div class="outer-content">
+      	<div class="inner-content">
+      	   <p>Some Content</p>
+      	</div>
+      </div>
+      
+      <!-- create two forms, one get, and one post -->
+      <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+      	<fieldset>
+      		<legend>Some GET data</legend>
+      		<label>Text
+      			<input type="text" name="text_input">
+      		</label>
+      		<br />
+      		<label>Numeric
+      			<input type="number" name="numeric_input">
+      		</label>
+      		<br />
+      		<label>Password
+      			<input type="password" name="password_input">
+      		</label>
+      	
+      		<p>Which candy is your favorite?</p>
+      		<label>Snickers
+      			<input type="radio" name="candy" value="snickers">
+      		</label>
+      		<br />
+      		<label>Skittles
+      			<input type="radio" name="candy" value="skittles">
+      		</label>
+      		<br />
+      		<label>Mentos
+      			<input type="radio" name="candy" value="mentos">
+      		</label>
+      		<br />
+      		<label>
+      			<input type="submit" name="submit-form">
+      		</label>
+      	</fieldset>
+      </form>
+      
+      <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+      	<fieldset>
+      		<legend>Some POST data</legend>
+      		<label>Text
+      			<input type="text" name="text_input">
+      		</label>
+      		<br />
+      		<label>Numeric
+      			<input type="number" name="numeric_input">
+      		</label>
+      		<br />
+      		<label>Password
+      			<input type="password" name="password_input">
+      		</label>
+      	
+      		<p>Which candy is your favorite?</p>
+      		<label>Snickers
+      			<input type="radio" name="candy" value="snickers">
+      		</label>
+      		<br />
+      		<label>Skittles
+      			<input type="radio" name="candy" value="skittles">
+      		</label>
+      		<br />
+      		<label>Mentos
+      			<input type="radio" name="candy" value="mentos">
+      		</label>
+      		<br />
+      		<label>
+      			<input type="submit" name="submit-form">
+      		</label>
+      	</fieldset>
+      </form>
+      
+   </body>
+</html>
+   

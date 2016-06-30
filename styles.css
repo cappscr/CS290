@@ -1,0 +1,33 @@
+/*****************************************************************************
+** Name: styles.css
+** Author: Christopher Capps
+** Date: June 26th, 2016
+** Class: CS 290 Summer 2016
+** Description: Stylesheet for the first week's assignment.
+*****************************************************************************/
+
+/* direct descendants of <tr>s need italics */
+.row-header {
+   font-style: italic;
+   font-weight: normal;
+}
+
+/* align the outer div to the left */
+.outer-content {
+   position: relative;
+   top: 20px;
+   background-color: pink;
+   width: 75%;
+   
+}
+
+.inner-content {
+   background-color: blue;
+   width: 75%;
+   text-align: center;
+   margin: 0 auto;
+}
+
+tr:nth-of-type(even) {
+    background: #e6e6e6;
+}
