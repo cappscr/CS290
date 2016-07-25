@@ -1,0 +1,13 @@
+<h1>POST Request Received</h1>
+<p>This is the data you sent in your POST query string:</p>
+<ul>
+	{{#each queryParams}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+</ul>
+<p>This is the data you sent in the body of your POST request:</p>
+<ul>
+	{{#each bodyParams}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+</ul>
